@@ -1,0 +1,396 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  }
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"10:00 AM EST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"title":"Tuesday",
+		"fcttext":"Mostly cloudy. Fog early. High of 57F. Winds from the SSE at 5 to 15 mph.",
+		"fcttext_metric":"Mostly cloudy. Fog early. High of 14C. Breezy. Winds from the SSE at 10 to 25 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Mostly cloudy with a chance of rain after midnight. Fog overnight. Low of 45F. Winds from the SSE at 5 to 15 mph. Chance of rain 30%.",
+		"fcttext_metric":"Mostly cloudy with a chance of rain after midnight. Fog overnight. Low of 7C. Breezy. Winds from the SSE at 10 to 20 km/h. Chance of rain 30%.",
+		"pop":"30"
+		}
+		,
+		{
+		"period":2,
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Mostly cloudy with a chance of rain. High of 66F. Winds from the South at 10 to 15 mph. Chance of rain 40%.",
+		"fcttext_metric":"Mostly cloudy with a chance of rain. High of 19C. Breezy. Winds from the South at 15 to 25 km/h. Chance of rain 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":3,
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Mostly cloudy with a chance of rain. Fog overnight. Low of 41F. Winds from the SSW at 10 to 15 mph shifting to the West after midnight. Chance of rain 40%.",
+		"fcttext_metric":"Mostly cloudy with a chance of rain. Fog overnight. Low of 5C. Breezy. Winds from the SSW at 15 to 20 km/h shifting to the West after midnight. Chance of rain 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":4,
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"title":"Thursday",
+		"fcttext":"Overcast with a chance of rain. High of 45F. Winds from the NW at 5 to 10 mph. Chance of rain 40%.",
+		"fcttext_metric":"Overcast with a chance of rain. High of 7C. Breezy. Winds from the NW at 10 to 20 km/h. Chance of rain 40%.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":5,
+		"icon":"chancesnow",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancesnow.gif",
+		"title":"Thursday Night",
+		"fcttext":"Overcast with ice pellets and snow, then a chance of snow after midnight. Fog overnight. Low of 27F with a windchill as low as 18F. Winds from the NNW at 5 to 15 mph. Chance of precipitation 50% with accumulations up to 1 in. possible.",
+		"fcttext_metric":"Overcast with ice pellets and snow, then a chance of snow after midnight. Fog overnight. Low of -3C with a windchill as low as -8C. Breezy. Winds from the NNW at 10 to 20 km/h. Chance of precipitation 50% with accumulations up to 4 cm possible.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancesnow",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancesnow.gif",
+		"title":"Friday",
+		"fcttext":"Overcast with a chance of snow and rain showers in the afternoon. Fog early. High of 32F with a windchill as low as 16F. Winds from the North at 10 to 15 mph. Chance of snow 40% with accumulations up to 1 in. possible.",
+		"fcttext_metric":"Overcast with a chance of snow and rain showers in the afternoon. Fog early. High of 0C with a windchill as low as -9C. Breezy. Winds from the North at 15 to 25 km/h. Chance of snow 40% with accumulations up to 3 cm possible.",
+		"pop":"40"
+		}
+		,
+		{
+		"period":7,
+		"icon":"partlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+		"title":"Friday Night",
+		"fcttext":"Overcast with a chance of snow in the evening, then partly cloudy. Fog overnight. Low of 3F with a windchill as low as -9F. Winds from the North at 10 to 15 mph.",
+		"fcttext_metric":"Overcast with a chance of snow in the evening, then partly cloudy. Fog overnight. Low of -16C with a windchill as low as -23C. Breezy. Winds from the North at 15 to 20 km/h.",
+		"pop":"20"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1386126000",
+	"pretty":"10:00 PM EST on December 03, 2013",
+	"day":3,
+	"month":12,
+	"year":2013,
+	"yday":336,
+	"hour":22,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Indianapolis"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"conditions":"Mostly Cloudy",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/mostlycloudy.gif",
+		"skyicon":"mostlycloudy",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0.0
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 13,
+		"kph": 21,
+		"dir": "SSE",
+		"degrees": 162
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SSE",
+		"degrees": 160
+		},
+		"avehumidity": 85,
+		"maxhumidity": 100,
+		"minhumidity": 68
+		}
+		,
+		{"date":{
+	"epoch":"1386212400",
+	"pretty":"10:00 PM EST on December 04, 2013",
+	"day":4,
+	"month":12,
+	"year":2013,
+	"yday":337,
+	"hour":22,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Indianapolis"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"66",
+		"celsius":"19"
+		},
+		"low": {
+		"fahrenheit":"41",
+		"celsius":"5"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"mostlycloudy",
+		"pop":40,
+		"qpf_allday": {
+		"in": 0.14,
+		"mm": 3.6
+		},
+		"qpf_day": {
+		"in": 0.05,
+		"mm": 1.3
+		},
+		"qpf_night": {
+		"in": 0.11,
+		"mm": 2.8
+		},
+		"snow_allday": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 0
+		},
+		"maxwind": {
+		"mph": 14,
+		"kph": 22,
+		"dir": "South",
+		"degrees": 190
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "SSW",
+		"degrees": 194
+		},
+		"avehumidity": 89,
+		"maxhumidity": 100,
+		"minhumidity": 74
+		}
+		,
+		{"date":{
+	"epoch":"1386298800",
+	"pretty":"10:00 PM EST on December 05, 2013",
+	"day":5,
+	"month":12,
+	"year":2013,
+	"yday":338,
+	"hour":22,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Thu",
+	"weekday":"Thursday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Indianapolis"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"low": {
+		"fahrenheit":"27",
+		"celsius":"-3"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"cloudy",
+		"pop":40,
+		"qpf_allday": {
+		"in": 0.20,
+		"mm": 5.1
+		},
+		"qpf_day": {
+		"in": 0.02,
+		"mm": 0.5
+		},
+		"qpf_night": {
+		"in": 0.16,
+		"mm": 4.1
+		},
+		"snow_allday": {
+		"in": 1,
+		"cm": 4
+		},
+		"snow_day": {
+		"in": 0,
+		"cm": 0
+		},
+		"snow_night": {
+		"in": 1,
+		"cm": 4
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NNW",
+		"degrees": 329
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "NNW",
+		"degrees": 327
+		},
+		"avehumidity": 81,
+		"maxhumidity": 100,
+		"minhumidity": 53
+		}
+		,
+		{"date":{
+	"epoch":"1386385200",
+	"pretty":"10:00 PM EST on December 06, 2013",
+	"day":6,
+	"month":12,
+	"year":2013,
+	"yday":339,
+	"hour":22,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"December",
+	"monthname_short":"Dec",
+	"weekday_short":"Fri",
+	"weekday":"Friday",
+	"ampm":"PM",
+	"tz_short":"EST",
+	"tz_long":"America/Indianapolis"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"32",
+		"celsius":"0"
+		},
+		"low": {
+		"fahrenheit":"3",
+		"celsius":"-16"
+		},
+		"conditions":"Chance of Snow",
+		"icon":"chancesnow",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/chancesnow.gif",
+		"skyicon":"cloudy",
+		"pop":40,
+		"qpf_allday": {
+		"in": 0.15,
+		"mm": 3.8
+		},
+		"qpf_day": {
+		"in": 0.10,
+		"mm": 2.5
+		},
+		"qpf_night": {
+		"in": 0.05,
+		"mm": 1.3
+		},
+		"snow_allday": {
+		"in": 2,
+		"cm": 4
+		},
+		"snow_day": {
+		"in": 1,
+		"cm": 3
+		},
+		"snow_night": {
+		"in": 0,
+		"cm": 1
+		},
+		"maxwind": {
+		"mph": 13,
+		"kph": 21,
+		"dir": "North",
+		"degrees": 4
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "SSW",
+		"degrees": 202
+		},
+		"avehumidity": 94,
+		"maxhumidity": 100,
+		"minhumidity": 79
+		}
+		]
+		}
+	}
+}

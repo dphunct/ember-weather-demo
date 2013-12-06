@@ -1,0 +1,3 @@
+This application uses EmberJS to read weather data from the weatherunderground API and display it.
+
+The user will be able to locally create stored locations and retrieve information for those locations as well as show weather for the current location. 
